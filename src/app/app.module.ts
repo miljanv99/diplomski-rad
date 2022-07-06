@@ -18,6 +18,10 @@ import { DialogDetailsComponent } from './components/dialog-details/dialog-detai
 import {MatDialogModule} from '@angular/material/dialog';
 import {MatButtonModule} from '@angular/material/button';
 import {MatInputModule} from '@angular/material/input';
+import { DialogOutOfStockComponent } from './components/dialog-out-of-stock/dialog-out-of-stock.component';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
+
+
 
 
 
@@ -28,7 +32,8 @@ import {MatInputModule} from '@angular/material/input';
     CardComponent,
     CartComponent,
     CheckoutComponent,
-    DialogDetailsComponent, 
+    DialogDetailsComponent,
+    DialogOutOfStockComponent, 
 
     
 
@@ -50,7 +55,8 @@ import {MatInputModule} from '@angular/material/input';
     MatIconModule,
     MatDialogModule,
     MatButtonModule,
-    MatInputModule
+    MatInputModule,
+    MatSnackBarModule
     
   ],
   providers: [],

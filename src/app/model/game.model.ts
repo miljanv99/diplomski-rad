@@ -3,8 +3,8 @@ export class Game{
     title:string;
     img:string;
     price:string;
-    console:string;
-    consoleImg:string;
+    platform:string;
+    platformImg:string;
     inStock: number;
     digitalDownload: string;
     aboutTheGame: string;

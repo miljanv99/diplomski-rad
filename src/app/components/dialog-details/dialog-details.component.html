@@ -10,9 +10,30 @@
 
             <div class="stockBuy">
                 <h1>{{data.title}}</h1>
-                <p>{{data.console}} | {{data.inStock}} | {{data.digitalDownload}} digital download</p>
-                <p>{{data.price}} $</p>
-                <button mat-button color="primary">Buy</button>
+                <div class="subInfosWrapper">
+                    <div class="subInfos">
+                        <div class="platform">
+                            <img style="width: 65px;" src="../../../assets/images/PS5-Players-Shocked-by-High-Rated-Stealth-Release.png" alt="">
+                            <p>{{data.platform}}</p>
+                            <span class="spacer"></span>
+                        </div>
+                        <div class="stocks">
+                            <img *ngIf="data.inStock > 0" src="../../../assets/images/green-check-mark-icon-transparent-background-11.jpg" alt="">
+                            <img *ngIf="data.inStock === 0" style="width: 43px ;" src="../../../assets/images/stop-icon-14.png" alt="">
+                            <p *ngIf="data.inStock > 0">In stock</p>
+                            <p *ngIf="data.inStock === 0">Out of stock</p>
+                            <span class="spacer"></span>
+                        </div>
+                        <div class="digitalDownload">
+                            <img src="../../../assets/images/green-check-mark-icon-transparent-background-11.jpg" alt="">
+                            <p>Digital download</p>
+                        </div>
+                    </div>
+            </div>
+                
+                <p class="gamePrice">{{data.price}}$</p>
+                <button *ngIf="data.inStock === 0" disabled mat-button color="primary">Buy</button>
+                <button *ngIf="data.inStock > 0"  (click)="addtoCart(data)" mat-button color="primary">Buy</button>
             </div>
         
 
@@ -34,6 +55,7 @@
        
 
         <div class="minimumConfig">
+            <h1>Minimum Configuration</h1>
             <ul>
                 <li>OS: <span>{{data.minimumConfig.OS}}</span></li>
                 <li>Processor: <span>{{data.minimumConfig.processor}}</span></li>
@@ -45,7 +67,18 @@
             </ul>
         </div>
 
-        <div class="recommendedConfig"></div>
-
+        <div class="recommendedConfig">
+            <h1>Recommended Configuration</h1>
+        <ul>
+            <li>OS: <span>{{data.recommendedConfig.OS}}</span></li>
+            <li>Processor: <span>{{data.recommendedConfig.processor}}</span></li>
+            <li>Memory: <span>{{data.recommendedConfig.memory}}</span></li>
+            <li>Graphics: <span>{{data.recommendedConfig.graphics}}</span></li>
+            <li>DirectX: <span>{{data.recommendedConfig.directX}}</span></li>
+            <li>Network: <span>{{data.recommendedConfig.network}}</span></li>
+            <li>Storage: <span>{{data.recommendedConfig.storage}}</span></li>
+        </ul>
+        </div>
+        
     </div>
 </div>

@@ -1,6 +1,6 @@
 <div class="card-img-parent">
   <img src={{inputGame.img}} class="card-img-top" alt="...">
-  <img src={{inputGame.consoleImg}} alt="">
+  <img src={{inputGame.platformImg}} alt="">
 </div>
     <div class="card-body">
       <h5 style="text-align: center;" class="card-title">{{inputGame.title}}</h5>
@@ -12,6 +12,7 @@
         
         <button mat-button  class="btn btn-primary" (click)="openDialogDetails()">Details</button>
 
-        <button class="btn btn-primary" (click)=addtoCart(inputGame) >Add to cart</button>
+        <button *ngIf="inputGame.inStock === 0" class="btn btn-primary" (click)="openDialogOutOFStock()">Add to cart</button>
+        <button *ngIf="inputGame.inStock > 0" class="btn btn-primary" (click)=addtoCart(inputGame) >Add to cart</button>
       </div>
     </div>
