@@ -1,0 +1,59 @@
+
+<ng-container *ngIf="products.length !=0">
+    <div class="card-table">
+        <div class="cart-porduct">
+            <table class="table table-responsive">
+                <thead>
+                    <tr>
+                        <th>Sr.No</th>
+                        <th>Game name</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor = "let item of products; let i = index"  > 
+                        <td>{{i+1}}</td>
+                        <td><img src="{{item.img}}" alt=""> <span>{{item.title}}</span></td>
+                        <td>{{item.price}}$</td>
+                        <td>
+                            <button class="btn btn-danger" (click)='removeItem(item)'>Delete</button>
+                        </td>
+                    </tr>
+                    
+                      
+                </tbody>
+               
+            </table>
+            <div class="totalPrice">
+                <div>
+                    <p>Total:</p>
+                    <p>{{this.grandTotal}}$</p>
+                    
+                </div>
+                
+           </div>
+            <div class="buttonContainer">
+                <button type="button" class="btn btn-danger" (click)='emptycart()'>Clear Shopping Cart</button>
+                <button type="button" class="btn btn-success" routerLink="/checkout" >Checkout</button>
+            </div>
+        </div>
+    </div>
+    
+</ng-container>
+
+<ng-container *ngIf="products.length == 0"> 
+    <div class="container">
+        <div class="card">
+            <h5 class="card-title">My card</h5>
+        </div>
+        <div class="center">
+            <img src="../../../assets/images/empty-cart.60e68bfd.png" alt="">
+            <h6>Add item to it now</h6>
+            <button routerLink="" class="btn btn-primary">Shop Now</button>
+        </div>
+    </div>
+</ng-container>
+
+
+
+

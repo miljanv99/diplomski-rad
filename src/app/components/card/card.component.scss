@@ -1,0 +1,23 @@
+.cardFooter{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.card-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card-img-parent img:last-of-type{
+    width: 77px;
+    height: 60px;
+    position: absolute;
+    top: -12px;
+    left: -18px;
+    border-radius: 27px;
+}

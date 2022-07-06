@@ -1,0 +1,51 @@
+<div class="dialogWrapper">
+    <h1>Details</h1>
+
+    <div class="dialogContentWrapper">
+
+        
+        <div class="presentation">
+            <img src="{{data.img}}" alt="">
+        </div>
+
+            <div class="stockBuy">
+                <h1>{{data.title}}</h1>
+                <p>{{data.console}} | {{data.inStock}} | {{data.digitalDownload}} digital download</p>
+                <p>{{data.price}} $</p>
+                <button mat-button color="primary">Buy</button>
+            </div>
+        
+
+        
+            <div class="about">
+                <h1>About the game</h1>
+                <p>{{data.aboutTheGame}}</p>
+            </div>
+
+            <div class="info">
+                <ul>
+                    <li>Rating: <span>{{data.rating}}</span></li>
+                    <li>Developer: <span>{{data.developer}}</span></li>
+                    <li>Publisher: <span>{{data.publisher}}</span></li>
+                    <li>Release date: <span>{{data.releaseDate}}</span></li>
+                    <li>Genre: <span>{{data.genre}}</span></li>
+                </ul>
+            </div>
+       
+
+        <div class="minimumConfig">
+            <ul>
+                <li>OS: <span>{{data.minimumConfig.OS}}</span></li>
+                <li>Processor: <span>{{data.minimumConfig.processor}}</span></li>
+                <li>Memory: <span>{{data.minimumConfig.memory}}</span></li>
+                <li>Graphics: <span>{{data.minimumConfig.graphics}}</span></li>
+                <li>DirectX: <span>{{data.minimumConfig.directX}}</span></li>
+                <li>Network: <span>{{data.minimumConfig.network}}</span></li>
+                <li>Storage: <span>{{data.minimumConfig.storage}}</span></li>
+            </ul>
+        </div>
+
+        <div class="recommendedConfig"></div>
+
+    </div>
+</div>

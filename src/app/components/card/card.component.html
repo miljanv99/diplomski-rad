@@ -1,0 +1,17 @@
+<div class="card-img-parent">
+  <img src={{inputGame.img}} class="card-img-top" alt="...">
+  <img src={{inputGame.consoleImg}} alt="">
+</div>
+    <div class="card-body">
+      <h5 style="text-align: center;" class="card-title">{{inputGame.title}}</h5>
+      <div class="card-content">
+        <h4>{{inputGame.price}}$</h4>
+        
+      </div>
+      <div class="cardFooter">
+        
+        <button mat-button  class="btn btn-primary" (click)="openDialogDetails()">Details</button>
+
+        <button class="btn btn-primary" (click)=addtoCart(inputGame) >Add to cart</button>
+      </div>
+    </div>
