@@ -17,7 +17,7 @@ export class CartComponent implements OnInit {
   public serialNumber: string;
   public selectedValue: number
   public counter = 0;
-  
+  public totalItem: number = 0;
   
 
   constructor(private cartService : CartService) { }
@@ -25,12 +25,16 @@ export class CartComponent implements OnInit {
   ngOnInit(): void {
     this.calculateFullPrice();
     //this.selectedValue = 1
-    
+    this.cartService.getProducts()
+    .subscribe(res=>{
+      this.totalItem = res.length
+    })
     
   }
   removeItem(item: Game){
     this.cartService.removeCartItem(item);
     this.calculateFullPrice();
+    this.totalItem = this.totalItem - 1
 
     
   }

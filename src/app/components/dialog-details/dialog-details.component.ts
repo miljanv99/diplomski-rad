@@ -24,7 +24,6 @@ export class DialogDetailsComponent implements OnInit {
     this.cartService.addtoCart(item);
     this.dialogRef.close(item);
     this.snackBarSuccessfulBuy();
-    
   }
 
   snackBarSuccessfulBuy(){

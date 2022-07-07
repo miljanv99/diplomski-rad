@@ -32,14 +32,14 @@
             </div>
                 
                 <p class="gamePrice">{{data.price}}$</p>
-                <button *ngIf="data.inStock === 0" disabled mat-button color="primary">Buy</button>
+                <button *ngIf="data.inStock === 0" disabled mat-button class="disable">Buy</button>
                 <button *ngIf="data.inStock > 0"  (click)="addtoCart(data)" mat-button color="primary">Buy</button>
             </div>
         
 
         
             <div class="about">
-                <h1>About the game</h1>
+                <h2>About the game</h2>
                 <p>{{data.aboutTheGame}}</p>
             </div>
 
@@ -55,7 +55,7 @@
        
 
         <div class="minimumConfig">
-            <h1>Minimum Configuration</h1>
+            <h2>Minimum Configuration</h2>
             <ul>
                 <li>OS: <span>{{data.minimumConfig.OS}}</span></li>
                 <li>Processor: <span>{{data.minimumConfig.processor}}</span></li>
@@ -68,7 +68,7 @@
         </div>
 
         <div class="recommendedConfig">
-            <h1>Recommended Configuration</h1>
+            <h2>Recommended Configuration</h2>
         <ul>
             <li>OS: <span>{{data.recommendedConfig.OS}}</span></li>
             <li>Processor: <span>{{data.recommendedConfig.processor}}</span></li>

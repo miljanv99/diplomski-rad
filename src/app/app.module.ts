@@ -20,6 +20,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatInputModule} from '@angular/material/input';
 import { DialogOutOfStockComponent } from './components/dialog-out-of-stock/dialog-out-of-stock.component';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 
@@ -33,7 +34,8 @@ import {MatSnackBarModule} from '@angular/material/snack-bar';
     CartComponent,
     CheckoutComponent,
     DialogDetailsComponent,
-    DialogOutOfStockComponent, 
+    DialogOutOfStockComponent,
+    FooterComponent, 
 
     
 

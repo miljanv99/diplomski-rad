@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MatSnackBar } from '@angular/material/snack-bar';
 import { Game } from 'src/app/model/game.model';
 import { CartService } from 'src/app/services/cart.service';
 import games from '../../data/igrice.json'
@@ -15,7 +16,8 @@ export class CardListComponent implements OnInit {
   public totalItem: number = 0;
   ngTitle:any;
   p:number = 1;
-  constructor(private cartService: CartService) { }
+  constructor(private cartService: CartService,
+              private snackBar: MatSnackBar) { }
 
   ngOnInit(): void {
     //this.gameList.forEach((a:Game)=>{
@@ -30,7 +32,10 @@ export class CardListComponent implements OnInit {
     this.gameList = this.gameListInitial
     
     
+    
   }
+
+ 
 
   Search(){
 
@@ -44,6 +49,8 @@ export class CardListComponent implements OnInit {
     })
   }
   }
+
+
   }
 
   

@@ -1,3 +1,18 @@
+<div class="nav-barParent">
+    <h1 routerLink="">Vortex Games</h1>
+    <div class="search">
+        <input  class="form-control me-2" type="search" placeholder="Search" disabled aria-label="Search">
+        <button routerLink="cart" id="btnShoppingCart" disabled class="btn btn-primary">
+            <img src="../../../assets/images/outline_shopping_cart_white_24dp.png" alt="">
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                {{totalItem}} 
+            </span>
+        </button>
+
+        
+          
+    </div>
+</div>
 
 <ng-container *ngIf="products.length !=0">
     <div class="card-table">

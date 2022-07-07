@@ -26,7 +26,8 @@
 
         .presentation, .stockBuy, .about, .info, .minimumConfig, .recommendedConfig{
             width: 100%;
-            background-color:#0a58ca;
+            background: linear-gradient(140deg, rgb(23, 102, 221),rgb(0, 4, 5));
+            //background-color:#0a58ca;
             padding:20px;
             border-radius:20px;
             color:#fff;
@@ -142,5 +143,10 @@
         }
 
     }
+}
+
+.disable{
+    background-color: gray !important;
+    
 }
 

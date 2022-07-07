@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
+import { MatSnackBar } from '@angular/material/snack-bar';
+import { Router } from '@angular/router';
 import { CartService } from 'src/app/services/cart.service';
 
 
@@ -12,8 +14,11 @@ import { CartService } from 'src/app/services/cart.service';
 export class CheckoutComponent implements OnInit{ 
   public products : any = [];
   public totalPrice : any = 0;
+  public totalItem: number = 0;
   
-  constructor(private cartService : CartService) { }
+  constructor(private cartService : CartService,
+              private snackBar: MatSnackBar,
+              private router: Router) { }
   
   checkoutForm:any;
  
@@ -23,6 +28,7 @@ export class CheckoutComponent implements OnInit{
     .subscribe(res=>{
       this.products = res;
       this.totalPrice =this.cartService.getTotalPrice()
+      this.totalItem = res.length
     })
     this.checkoutForm = new FormGroup({
       formName : new FormControl('',[Validators.required,Validators.pattern('[a-zA-z]*')]),
@@ -79,7 +85,16 @@ export class CheckoutComponent implements OnInit{
     return this.checkoutForm.get("formCVV")
   }
   
-  
+  buyGame(){
+    this.snackBar.open("You have successfully completed your purchase","OK",{
+      panelClass:["snackBarOK"],duration: 5000
+      
+    })
+    this.router.navigateByUrl('');
+    this.cartService.removeAllCart();
+    
+    
+  }
   
   
   
