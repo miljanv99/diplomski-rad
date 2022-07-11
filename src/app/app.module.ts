@@ -21,6 +21,8 @@ import {MatInputModule} from '@angular/material/input';
 import { DialogOutOfStockComponent } from './components/dialog-out-of-stock/dialog-out-of-stock.component';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
 import { FooterComponent } from './components/footer/footer.component';
+import { DialogConfirmComponent } from './components/dialog-confirm/dialog-confirm.component';
+
 
 
 
@@ -35,8 +37,9 @@ import { FooterComponent } from './components/footer/footer.component';
     CheckoutComponent,
     DialogDetailsComponent,
     DialogOutOfStockComponent,
-    FooterComponent, 
-
+    FooterComponent,
+    DialogConfirmComponent,
+    
     
 
 
@@ -58,7 +61,7 @@ import { FooterComponent } from './components/footer/footer.component';
     MatDialogModule,
     MatButtonModule,
     MatInputModule,
-    MatSnackBarModule
+    MatSnackBarModule,
     
   ],
   providers: [],

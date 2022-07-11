@@ -1,9 +1,4 @@
-
-
-
-
-
-.outOfStockContent{
+.confirmContent{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -12,12 +7,19 @@
         text-align: center;
     }
 
+    .footer{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
         button{
             background-color: #0d6efd;
             color: white;
         }
 
-    
+    }
 
    
 }
+

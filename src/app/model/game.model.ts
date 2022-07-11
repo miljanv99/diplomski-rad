@@ -24,13 +24,13 @@ export class Game{
 
     }
     recommendedConfig:{
-        "OS": string;
-        "processor": string;
-        "memory": string;
-        "graphics": string;
-        "directX": string;
-        "network": string;
-        "storage": string;
+        OS: string;
+        processor: string;
+        memory: string;
+        graphics: string;
+        directX: string;
+        network: string;
+        storage: string;
     }
 
    constructor(){}

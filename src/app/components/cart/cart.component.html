@@ -22,14 +22,24 @@
                     <tr>
                         <th>Sr.No</th>
                         <th>Game name</th>
+                        <th>Developer</th>
+                        <th>Release Date</th>
+                        <th>Platform</th>
+                        <th>Rating</th>
                         <th>Price</th>
+                        
                     </tr>
                 </thead>
                 <tbody>
                     <tr *ngFor = "let item of products; let i = index"  > 
                         <td>{{i+1}}</td>
                         <td><img src="{{item.img}}" alt=""> <span>{{item.title}}</span></td>
+                        <td>{{item.developer}}</td>
+                        <td>{{item.releaseDate}}</td>
+                        <td class="platformImg"><img src="{{item.platformImg}}" alt=""></td>
+                        <td>{{item.rating}}</td>
                         <td>{{item.price}}$</td>
+                        
                         <td>
                             <button class="btn btn-danger" (click)='removeItem(item)'>Delete</button>
                         </td>
@@ -48,7 +58,7 @@
                 
            </div>
             <div class="buttonContainer">
-                <button type="button" class="btn btn-danger" (click)='emptycart()'>Clear Shopping Cart</button>
+                <button type="button" class="btn btn-danger" (click)='openDialogConfirm()'>Clear Shopping Cart</button>
                 <button type="button" class="btn btn-success" routerLink="/checkout" >Checkout</button>
             </div>
         </div>

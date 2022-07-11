@@ -12,9 +12,17 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     background-color: green;
     color: whitesmoke;
 }
+.snackBarDelete{
+    background-color: red;
+    color: whitesmoke;
+}
 
 
 
 .mat-simple-snackbar-action button {
     color: whitesmoke;
+}
+
+.col-md-4{
+    z-index: -1;
 }

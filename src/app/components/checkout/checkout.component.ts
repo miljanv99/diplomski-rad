@@ -16,6 +16,7 @@ export class CheckoutComponent implements OnInit{
   public totalPrice : any = 0;
   public totalItem: number = 0;
   
+  
   constructor(private cartService : CartService,
               private snackBar: MatSnackBar,
               private router: Router) { }
@@ -86,10 +87,12 @@ export class CheckoutComponent implements OnInit{
   }
   
   buyGame(){
+
     this.snackBar.open("You have successfully completed your purchase","OK",{
       panelClass:["snackBarOK"],duration: 5000
       
     })
+ 
     this.router.navigateByUrl('');
     this.cartService.removeAllCart();
     

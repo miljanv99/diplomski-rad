@@ -1,8 +1,11 @@
 import { BindingScope } from '@angular/compiler/src/render3/view/template';
-import { Component, OnInit } from '@angular/core';
+import { Component, Inject, OnInit } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
+import { MatSnackBar } from '@angular/material/snack-bar';
 import { Game } from 'src/app/model/game.model';
 import { CartService } from 'src/app/services/cart.service';
 import games from '../../data/igrice.json'
+import { DialogConfirmComponent } from '../dialog-confirm/dialog-confirm.component';
 
 @Component({
   selector: 'app-cart',
@@ -20,7 +23,9 @@ export class CartComponent implements OnInit {
   public totalItem: number = 0;
   
 
-  constructor(private cartService : CartService) { }
+  constructor(private cartService : CartService,
+              private dialog: MatDialog,
+              private snackBar: MatSnackBar) { }
   
   ngOnInit(): void {
     this.calculateFullPrice();
@@ -35,11 +40,17 @@ export class CartComponent implements OnInit {
     this.cartService.removeCartItem(item);
     this.calculateFullPrice();
     this.totalItem = this.totalItem - 1
-
+    this.snackBar.open("You successfully deleted: " + item.title,"OK",{
+      panelClass:["snackBarDelete"],duration:2000
+    })
     
   }
-  emptycart(){
-    this.cartService.removeAllCart();
+ 
+
+  openDialogConfirm(){
+    this.dialog.open(DialogConfirmComponent,{
+      width: '500px'
+    })
   }
 
   calculateFullPrice(){
