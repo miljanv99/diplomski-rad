@@ -43,7 +43,7 @@
                 <div class="row">
                     <div class="col-md-6 mb-3">
                         <label for="firstName">First name</label>
-                        <input formControlName="formName" type="text" class="form-control" id="firstName" >
+                        <input [ngClass]="{'empty': formName == null}" formControlName="formName" type="text" class="form-control" id="firstName" >
                         <div *ngIf=" formName.touched  &&  formName.invalid"> 
                             <span *ngIf="formName.errors.required">First name is required</span>
                             <span *ngIf="formName.errors.pattern">Enter valid name</span>

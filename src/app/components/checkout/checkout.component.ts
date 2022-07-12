@@ -22,9 +22,16 @@ export class CheckoutComponent implements OnInit{
               private router: Router) { }
   
   checkoutForm:any;
+
+  
+
+ 
  
 
   ngOnInit(): void {
+    
+    
+    
     this.cartService.getProducts()
     .subscribe(res=>{
       this.products = res;
@@ -43,6 +50,9 @@ export class CheckoutComponent implements OnInit{
       formExpirationYear : new FormControl('',[Validators.required,Validators.pattern('(202[2-9]|20[34][0-9]|2050)')]),
       formCVV : new FormControl('',[Validators.required,Validators.pattern('^[1-9][0-9]{2,2}$')]),
     })
+
+
+
     
 
   }

@@ -38,7 +38,7 @@ openDialogDetails(){
   this.dialog.open(DialogDetailsComponent,{
     width:'1800px',
     height: '900px',
-    data: {id: this.inputGame.id, title: this.inputGame.title, img: this.inputGame.img, price: this.inputGame.price, platformImg: this.inputGame.platformImg, inStock: this.inputGame.inStock, digitalDownload: this.inputGame.digitalDownload, aboutTheGame: this.inputGame.aboutTheGame, rating: this.inputGame.rating, developer: this.inputGame.developer, publisher: this.inputGame.publisher, releaseDate: this.inputGame.releaseDate, genre: this.inputGame.genre, minimumConfig: this.inputGame.minimumConfig, recommendedConfig: this.inputGame.recommendedConfig }
+    data: {id: this.inputGame.id, title: this.inputGame.title, img: this.inputGame.img, price: this.inputGame.price, platformImg: this.inputGame.platformImg, platform: this.inputGame.platform ,inStock: this.inputGame.inStock, digitalDownload: this.inputGame.digitalDownload, aboutTheGame: this.inputGame.aboutTheGame, rating: this.inputGame.rating, developer: this.inputGame.developer, publisher: this.inputGame.publisher, releaseDate: this.inputGame.releaseDate, genre: this.inputGame.genre, minimumConfig: this.inputGame.minimumConfig, recommendedConfig: this.inputGame.recommendedConfig }
   })
 
   console.log(this.inputGame.minimumConfig.OS)

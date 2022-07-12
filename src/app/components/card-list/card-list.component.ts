@@ -39,19 +39,26 @@ export class CardListComponent implements OnInit {
 
   Search(){
 
-    if (this.ngTitle == '') {
-      this.ngOnInit()
-    }else{
+      if (this.ngTitle == '') {
+        this.ngOnInit()
+      }else{
     
-    this.gameList = this.gameList.filter(res=>{
-      return res.title.toLocaleLowerCase().match(this.ngTitle.toLocaleLowerCase())
+      this.gameList = this.gameList.filter(res=>{
+        return res.title.toLocaleLowerCase().match(this.ngTitle.toLocaleLowerCase())
       
-    })
+      })
+    }
   }
+
+   onScrollTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
   }
 
 
-  }
+}
 
   
   
