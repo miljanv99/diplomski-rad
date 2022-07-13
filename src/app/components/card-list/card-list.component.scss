@@ -3,6 +3,10 @@
     width: 330px!important;
     height: 350px;
     margin: 10px;
+    border-radius: 20px;
+    border: none;
+    background: linear-gradient(to bottom right, rgba(1, 5, 255, 0.8), rgb(151 187 255 / 61%));
+    transition: all 0.3s;
 }
 
 .content{
@@ -81,6 +85,8 @@
     h1:hover{
         cursor: pointer;
     }
+
+   
     
 }
 
@@ -88,7 +94,15 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    color: black
+   
+
+    
 
     
 }
 
+  
+  .card:hover {
+    background-color: rgb(0, 17, 255);
+  }

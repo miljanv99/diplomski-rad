@@ -16,6 +16,7 @@ export class CardListComponent implements OnInit {
   public totalItem: number = 0;
   ngTitle:any;
   p:number = 1;
+
   constructor(private cartService: CartService,
               private snackBar: MatSnackBar) { }
 
@@ -30,6 +31,8 @@ export class CardListComponent implements OnInit {
     })
 
     this.gameList = this.gameListInitial
+    
+    
     
     
     

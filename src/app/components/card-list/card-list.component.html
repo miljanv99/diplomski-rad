@@ -2,6 +2,8 @@
 <div class="nav-barParent">
     <h1 routerLink="">Vortex Games</h1>
     <div class="search">
+       
+        
         <input [(ngModel)]="ngTitle" (ngModelChange)="Search()" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button routerLink="cart" id="btnShoppingCart" class="btn btn-primary">
             <img src="../../../assets/images/outline_shopping_cart_white_24dp.png" alt="">
@@ -18,6 +20,7 @@
 
 
 <div class="content">
+    
     <div *ngFor = "let item of gameList | paginate: {itemsPerPage:12,currentPage:p} " class="card" style="width: 18rem;">
         <app-card [inputGame]="item"></app-card>
     </div>

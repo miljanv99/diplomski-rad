@@ -2,12 +2,15 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
 
 
-html { height: 100%; }
-body { margin: 0;  font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 0;
+      font-family: Roboto, "Helvetica Neue", sans-serif;
+      
+     }
 
 
 
 
+     
 .snackBarOK{
     background-color: green;
     color: whitesmoke;
@@ -19,10 +22,29 @@ body { margin: 0;  font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 
 
+.mat-dialog-container{
+    background-color: #1766b3;
+    color: whitesmoke;
+}
+
+
 .mat-simple-snackbar-action button {
     color: whitesmoke;
 }
 
 .col-md-4{
     z-index: -1;
+}
+
+ul.ngx-pagination{
+    li:hover, li:hover{
+        a{
+        background-color: transparent ;
+        font-weight: 500;
+        }
+    }
+}
+
+.ngx-pagination .current{
+    background-color: #1766dd !important;
 }

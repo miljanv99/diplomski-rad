@@ -2,8 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { Router } from '@angular/router';
+import { Country } from 'src/app/model/country.model';
 import { CartService } from 'src/app/services/cart.service';
-
+import countries from '../../data/zemlje.json'
 
 
 @Component({
@@ -15,6 +16,7 @@ export class CheckoutComponent implements OnInit{
   public products : any = [];
   public totalPrice : any = 0;
   public totalItem: number = 0;
+  countryList: Country[] = countries;
   
   
   constructor(private cartService : CartService,
@@ -29,6 +31,7 @@ export class CheckoutComponent implements OnInit{
  
 
   ngOnInit(): void {
+    //console.log(this.countryList)
     
     
     
