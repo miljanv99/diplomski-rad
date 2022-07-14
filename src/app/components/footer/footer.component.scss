@@ -82,3 +82,22 @@
     }
     
 }
+
+@media screen and (max-width: 1060px) {
+    .footerWrapper{
+        height: 900px;
+
+        .footerContent{
+            height: 900px;
+            flex-direction: column-reverse;
+            align-items: center;
+            justify-content: space-evenly;
+
+            .media{
+                width: 100%;
+                height: 300px;
+                justify-content: space-between;
+            }
+        }
+    }
+  }

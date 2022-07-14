@@ -150,3 +150,53 @@
     
 }
 
+
+
+@media screen and (max-width: 1365px) {
+    .dialogContentWrapper{
+        display: flex !important; 
+        flex-direction: column;
+
+        .about, .info, .minimumConfig, .recommendedConfig{
+            text-align: center !important;
+            align-items: center !important;
+        }
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .info{
+        ul{
+            font-size: 20px !important;
+        }
+    }
+}
+
+@media screen and (max-width: 615px) {
+    .subInfosWrapper{
+        height: 240px;
+        align-items: center;
+
+        .subInfos{
+            height: 100% !important;
+            flex-direction: column !important;
+            justify-content: space-evenly;
+            align-items: center;
+
+            
+            .spacer{
+                    background-color: transparent !important;
+            }
+            
+        }
+
+       
+    }
+
+    .stockBuy{
+        button{
+            width: 250px !important;
+        }
+    }
+}
+

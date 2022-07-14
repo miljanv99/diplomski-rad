@@ -28,3 +28,28 @@ h5{
     left: -18px;
     border-radius: 27px;
 }
+
+
+
+@media screen and (max-width: 630px) {
+    .card-body{
+        .card-title{
+            text-align: center;
+            font-size: xx-large;
+        }
+    
+        .card-content{
+            h4{
+                font-size: xx-large;
+            }
+        }
+    
+        .cardFooter{
+            button{
+                width: 160px;
+                height: 50px;
+            }
+        }
+    }
+}
+

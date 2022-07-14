@@ -15,6 +15,7 @@ export class CardListComponent implements OnInit {
   gameListInitial: Game[]= games
   public totalItem: number = 0;
   ngTitle:any;
+  ngPlatfrom:any;
   p:number = 1;
 
   constructor(private cartService: CartService,
@@ -38,6 +39,24 @@ export class CardListComponent implements OnInit {
     
   }
 
+  checkFunction(e){
+    
+    if (e.target.checked==true) {
+      console.log(e.path[0].value)
+
+      for (const i of this.gameList) {
+        if (i.platform === e.path[0].value) {
+          
+          this.gameList= this.gameList.filter(res=>{
+            
+            return  res.platform.toLocaleLowerCase().match(this.ngPlatfrom.toLocaleLowerCase())
+          });
+          
+        }
+      }
+    }
+  }
+
  
 
   Search(){
@@ -52,6 +71,8 @@ export class CardListComponent implements OnInit {
       })
     }
   }
+
+  
 
    onScrollTop() {
     window.scrollTo({
