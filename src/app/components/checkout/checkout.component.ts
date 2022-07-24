@@ -25,16 +25,9 @@ export class CheckoutComponent implements OnInit{
   
   checkoutForm:any;
 
-  
-
- 
- 
 
   ngOnInit(): void {
-    //console.log(this.countryList)
-    
-    
-    
+
     this.cartService.getProducts()
     .subscribe(res=>{
       this.products = res;

@@ -30,10 +30,7 @@ export class CardComponent implements OnInit {
     })
     
   }
-  //actionMethod($event: MouseEvent, id:number) {
-    //($event.target as HTMLButtonElement).disabled = true;
-  //  
-//}
+
 openDialogDetails(){
   this.dialog.open(DialogDetailsComponent,{
     width:'1800px',

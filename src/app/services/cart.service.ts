@@ -21,13 +21,6 @@ export class CartService {
     
   }
 
-  //getConsols(){
-    //return this.consolesList.asObservable();
-  //}
-
-  
-
-  
   addtoCart(product : Game){
     this.cartItemList.push(product);
     this.productList.next(this.cartItemList);

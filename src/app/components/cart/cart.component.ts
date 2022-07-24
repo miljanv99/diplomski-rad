@@ -1,10 +1,8 @@
-import { BindingScope } from '@angular/compiler/src/render3/view/template';
 import { Component, Inject, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { Game } from 'src/app/model/game.model';
 import { CartService } from 'src/app/services/cart.service';
-import games from '../../data/igrice.json'
 import { DialogConfirmComponent } from '../dialog-confirm/dialog-confirm.component';
 
 @Component({
@@ -29,7 +27,6 @@ export class CartComponent implements OnInit {
   
   ngOnInit(): void {
     this.calculateFullPrice();
-    //this.selectedValue = 1
     this.cartService.getProducts()
     .subscribe(res=>{
       this.totalItem = res.length
@@ -56,7 +53,7 @@ export class CartComponent implements OnInit {
   calculateFullPrice(){
     this.cartService.getProducts()
     .subscribe(res=>{
-      this.products = res;//stavlja proizvod u korpu
+      this.products = res;//put product in cart
       this.grandTotal = this.cartService.getTotalPrice();
     })
   }

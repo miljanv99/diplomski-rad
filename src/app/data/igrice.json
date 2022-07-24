@@ -420,7 +420,7 @@
     "storage": "55 GB available space"
 }
 },
-{"id":24,"title": "Hitman Absolution", "img":"https://s3.gaming-cdn.com/images/products/134/616x353/hitman-absolution-professional-edition-professional-edition-pc-mac-game-steam-cover.jpg?v=1648537963","price": 20,"platform":"PC","platformImg":"https://www.freeiconspng.com/thumbs/steam-icon/steam-icon-3.png", "inStock": 200, "digitalDownload": "yes", "aboutTheGame": "About This Game Hitman: Absolution follows the Original Assassin undertaking his most personal contract to date. Betrayed by the Agency and hunted by the police, Agent 47 finds himself pursuing redemption in a corrupt and twisted world.Key FeaturesShowcasing Glacier 2™ technology: HITMAN: ABSOLUTION has been built from the ground up, boasting a cinematic story, distinctive art direction", "rating": "PEGI 18", "developer": "Io-Interactive A/S", "publisher": "Io-Interactive A/S", "releaseDate": "20 November 2012", "genre":["Single player","Action"], "minimumConfig":{
+{"id":24,"title": "Hitman Absolution", "img":"https://s3.gaming-cdn.com/images/products/134/616x353/hitman-absolution-professional-edition-professional-edition-pc-mac-game-steam-cover.jpg?v=1648537963","price": 20,"platform":"PC","platformImg":"https://cdn.freebiesupply.com/logos/large/2x/microsoft-xbox-1-logo-png-transparent.png", "inStock": 200, "digitalDownload": "yes", "aboutTheGame": "About This Game Hitman: Absolution follows the Original Assassin undertaking his most personal contract to date. Betrayed by the Agency and hunted by the police, Agent 47 finds himself pursuing redemption in a corrupt and twisted world.Key FeaturesShowcasing Glacier 2™ technology: HITMAN: ABSOLUTION has been built from the ground up, boasting a cinematic story, distinctive art direction", "rating": "PEGI 18", "developer": "Io-Interactive A/S", "publisher": "Io-Interactive A/S", "releaseDate": "20 November 2012", "genre":["Single player","Action"], "minimumConfig":{
     "OS": "Windows Vista, 7",
     "processor": "True dual core CPU (Intel, AMD) Hard Drive Space: 24GB",
     "memory": "2 GB RAM",
@@ -437,7 +437,260 @@
     "network": "Broadband Internet connection",
     "storage": "55 GB available space"
 }
+},
+{"id":25,"title": "GTA 5", "img":"https://cdn.mos.cms.futurecdn.net/zVy2ZCi7mn4xrZHvkQen5Y.jpg","price": 55,"platform":"XBOX","platformImg":"https://cdn.freebiesupply.com/logos/large/2x/microsoft-xbox-1-logo-png-transparent.png", "inStock": 0, "digitalDownload": "yes", "aboutTheGame": "Grand Theft Auto V is an action-adventure game played from either a third-person or first-person perspective. Players complete missions—linear scenarios with set objectives—to progress through the story. Outside of the missions, players may freely roam the open world. Composed of the San Andreas open countryside area, including the fictional Blaine County, and the fictional city of Los Santos, the world is much larger in area than earlier entries in the series.", "rating": "PEGI 18", "developer": "Rockstar North", "publisher": "Rockstar Games", "releaseDate": "14 April 2013", "genre":["Action","Adventure","Single player"], "minimumConfig":{
+    "OS": "XBOX",
+    "processor": "Intel Core i3-4130 or Core i5-3470 or AMD FX-6100",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GT 1030 (DDR4) or AMD Radeon RX 550",
+    "directX": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "36 GB available space"
+},"recommendedConfig":{
+    "OS": "PS5",
+    "processor": "Intel Core i5-4460 or AMD FX-8300",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1060 (VRAM 3GB) or AMD Radeon RX 570 (VRAM 4GB)",
+    "directX": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "36 GB available space"
 }
+},
+{"id":26,"title": "FIFA 22", "img":"https://stevivor.com/wp-content/uploads/2021/07/fifa-22.jpg","price": 50,"platform":"XBOX","platformImg":"https://cdn.freebiesupply.com/logos/large/2x/microsoft-xbox-1-logo-png-transparent.png","inStock": 220, "digitalDownload": "yes", "aboutTheGame": "FIFA 22 for PC is the thirtieth release in the franchise of the massively popular soccer simulation video game series, following along the real life ups and downs of players and teams from all over the world, using real life motion capture from the players and combining it with state of the art graphics and physics engines so each game leaves you as drained as though you played for real!", "rating": "PEGI 7", "developer": "EA Canada & EA Romania", "publisher": "Electronic Arts", "releaseDate": "1 October 2021", "genre":["Single player","Simulation","Sports"],"minimumConfig":{
+    "OS": "XBOX",
+    "processor": "Intel Core i3-6100 @ 3.7GHz or AMD Athlon X4 880K @4GHz",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GTX 660 2GB or AMD Radeon HD 7850 2GB",
+    "directX": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "50 GB available space"
+},"recommendedConfig":{
+    "OS": "XBOX",
+    "processor": "Intel i5-3550 @ 3.40GHz or AMD FX 8150 @ 3.6GHz",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 670 or AMD Radeon R9 270X",
+    "directX": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "50 GB available space"
+}
+},
+{"id":27,"title": "NBA 2K22", "img":"https://s1.gaming-cdn.com/images/products/8997/616x353/nba-2k22-pc-game-steam-europe-cover.jpg?v=1651052657","price": 85,"platform":"PS5","platformImg":"https://www.fifplay.com/img/public/playstation-5-logo.jpg", "inStock": 20, "digitalDownload": "yes", "aboutTheGame": "NBA 2k22 for PC is the latest of the NBA games, falling twenty-third on the list of ,main games in the franchise. As always, the game embraces the real life events and players of the actual NBA, complete with teams, venues, players – including stats, trick shots, super skills and more.", "rating": "PEGI 7", "developer": "Visual Concepts", "publisher": "2K", "releaseDate": "10 September 2021", "genre":["Sports","Single player","Simulation"], "minimumConfig":{
+    "OS": "PS5",
+    "processor": "Intel Core i3-2100 @ 3.10 GHz/ AMD FX-4100 @ 3.60 GHz",
+    "memory": "4 GB RAM",
+    "graphics": "NVIDIA GeForce GT 450 1GB/ ATI Radeon HD 7770 1 GB",
+    "directX": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "110 GB available space"
+},"recommendedConfig":{
+    "OS": "PS5",
+    "processor": "Intel Core i5-4430 @ 3 GHz/ AMD FX-8370 @ 3.4 GHz",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 770 2GB/ ATI Radeon R9 270 2GB",
+    "directX": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "110 GB available space"
+}
+},
+{"id":28,"title": "Detroit: Become Human", "img":"https://s3.gaming-cdn.com/images/products/7001/616x353/detroit-become-human-pc-game-steam-cover.jpg?v=1651585801","price": 55,"platform":"PS5","platformImg":"https://www.fifplay.com/img/public/playstation-5-logo.jpg", "inStock": 110, "digitalDownload": "yes", "aboutTheGame": "About This Game Detroit: Become Human, the award-winning video game production from Quantic Dream, is finally available on Steam! Featuring world-renowned actors including Jesse Williams (Grey’s Anatomy), Clancy Brown (Carnivale), Lance Henriksen (Aliens), Bryan Dechart (True Blood) and Valorie Curry (Twilight).WHAT MAKES US HUMAN? Detroit 2038. Technology has evolved to a point where human like androids.", "rating": "PEGI 18", "developer": "Quantic Dream Entertainment", "publisher": "Quantic Dream", "releaseDate": "18 June 2020", "genre":["Single player","Action","Adventure"], "minimumConfig":{
+    "OS": "PS5",
+    "processor": "Intel Core i5-2300 @ 2.8 GHz or AMD Ryzen 3 1200 @ 3.1GHz or AMD FX-8350 @ 4.2GHz",
+    "memory": "8 GB RAM",
+    "graphics": "Nvidia GeForce GTX 780 or AMD HD 7950 with 3GB VRAM minimum (Support of Vulkan 1.1 required)",
+    "directX": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "55 GB available space"
+},"recommendedConfig":{
+    "OS": "PS5",
+    "processor": "Intel Core i5-6600 @ 3.3 GHz or AMD Ryzen 3 1300 X @ 3.4 GHz",
+    "memory": "12 GB RAM",
+    "graphics": "Nvidia GeForce GTX 1060 or AMD Radeon RX 580 with 4GB VRAM minimum (Support of Vulkan 1.1 required)",
+    "directX": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "55 GB available space"
+}
+},{"id":29,"title": "Playerunknown's Battlegrounds", "img":"https://s1.gaming-cdn.com/images/products/1995/616x353/playerunknowns-battlegrounds-pc-game-steam-cover.jpg?v=1641890100","price": 29,"platform":"PS5","platformImg":"https://www.fifplay.com/img/public/playstation-5-logo.jpg","inStock": 225, "digitalDownload": "yes", "aboutTheGame": "Playerunkown’s Battlegrounds for PC is an online multiplayer Battle Royale type game. Battle Royale games are massively multiplayer gatherings where everyone who joins in battles it out to be the last man standing and ultimate victor. Up to one hundred players enter the game by parachuting onto an island where they immediately start scavenging for weapons and tools to give themselves the edge over the other players. The unwary are despatched promptly as everyone is out for themselves, so be careful and make sure you watch your back at all times!", "rating": "PEGI 12", "developer": "KRAFTON, Inc.", "publisher": "KRAFTON, Inc.", "releaseDate": "21 December 2017", "genre":["Multiplayer","Action","Battle royal"],"minimumConfig":{
+    "OS": "PS5",
+    "processor": "Intel Core i5-4430 / AMD FX-6300",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 960 2GB / AMD Radeon R7 370 2GB",
+    "directX": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "40 GB available space"
+},"recommendedConfig":{
+    "OS": "PS5",
+    "processor": "Intel Core i5-6600K / AMD Ryzen 5 1600",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1060 3GB / AMD Radeon RX 580 4GB0",
+    "directX": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "50 GB available space"
+}
+},
+{"id":30,"title": "Detroit: Become Human", "img":"https://s3.gaming-cdn.com/images/products/7001/616x353/detroit-become-human-pc-game-steam-cover.jpg?v=1651585801","price": 65,"platform":"PS5","platformImg":"https://cdn.freebiesupply.com/logos/large/2x/microsoft-xbox-1-logo-png-transparent.png", "inStock": 110, "digitalDownload": "yes", "aboutTheGame": "About This Game Detroit: Become Human, the award-winning video game production from Quantic Dream, is finally available on Steam! Featuring world-renowned actors including Jesse Williams (Grey’s Anatomy), Clancy Brown (Carnivale), Lance Henriksen (Aliens), Bryan Dechart (True Blood) and Valorie Curry (Twilight).WHAT MAKES US HUMAN? Detroit 2038. Technology has evolved to a point where human like androids.", "rating": "PEGI 18", "developer": "Quantic Dream Entertainment", "publisher": "Quantic Dream", "releaseDate": "18 June 2020", "genre":["Single player","Action","Adventure"], "minimumConfig":{
+    "OS": "PS5",
+    "processor": "Intel Core i5-2300 @ 2.8 GHz or AMD Ryzen 3 1200 @ 3.1GHz or AMD FX-8350 @ 4.2GHz",
+    "memory": "8 GB RAM",
+    "graphics": "Nvidia GeForce GTX 780 or AMD HD 7950 with 3GB VRAM minimum (Support of Vulkan 1.1 required)",
+    "directX": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "55 GB available space"
+},"recommendedConfig":{
+    "OS": "PS5",
+    "processor": "Intel Core i5-6600 @ 3.3 GHz or AMD Ryzen 3 1300 X @ 3.4 GHz",
+    "memory": "12 GB RAM",
+    "graphics": "Nvidia GeForce GTX 1060 or AMD Radeon RX 580 with 4GB VRAM minimum (Support of Vulkan 1.1 required)",
+    "directX": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "55 GB available space"
+}
+},
+{"id":31,"title": "Marvel's Spider-Man Remastered XBOX", "img":"https://s1.gaming-cdn.com/images/products/10767/616x353/marvel-s-spider-man-remastered-ps5-playstation-5-game-playstation-store-europe-cover.jpg?v=1655795783","price": 75,"platform":"XBOX","platformImg":"https://cdn.freebiesupply.com/logos/large/2x/microsoft-xbox-1-logo-png-transparent.png","inStock": 0, "digitalDownload": "yes", "aboutTheGame":"AAbout This Game Developed by Insomniac Games in collaboration with Marvel, and optimized for PC by Nixxes Software, Marvel's Spider-Man Remastered on PC introduces an experienced Peter Parker who’s fighting big crime and iconic villains in Marvel’s New York. At the same time, he’s struggling to balance his chaotic personal life and career while the fate of Marvel’s New York rests upon his shoulders.", "rating": "PEGI 12", "developer": "Insomniac Games Blind Squirrel Games", "publisher": "Sony Interactive Entertainment", "releaseDate": "4 February 2022", "genre":["Action","Single player","Adventure"],"minimumConfig":{
+    "OS": "XBOX",
+    "processor": "Intel CPU Core i3-8100 or equivalent",
+    "memory": "8 GB RAM",
+    "graphics": "DirectX12 capable GPU with 4GB VRAM",
+    "directX": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "85 GB available space"
+},"recommendedConfig":{
+    "OS": "XBOX",
+    "processor": "Intel CPU Core i5-8400 or equivalent",
+    "memory": "16 GB RAM",
+    "graphics": "DirectX12 capable GPU with 6GB VRAM",
+    "directX": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "85 GB available space"
+}
+},
+{"id":32,"title": "Life is Strange Remastered", "img":"https://s2.gaming-cdn.com/images/products/9028/616x353/life-is-strange-remastered-collection-pc-game-steam-cover.jpg?v=1651591881","price": 55,"platform":"PS5","platformImg":"https://www.fifplay.com/img/public/playstation-5-logo.jpg", "inStock": 0, "digitalDownload": "yes", "aboutTheGame": "About This Game Experience the BAFTA award-winning story of Life is Strange now beautifully remastered with enhanced visuals and vastly improved animation using mocap technology. Play as Max Caulfield, a photography senior who discovers she can rewind time while saving her best friend Chloe Price from a violent altercation. The pair soon find themselves investigating the mysterious disappearance of fellow student.", "rating": "PEGI 12", "developer": "Deck Nine", "publisher": "Square Enix", "releaseDate": "1 February 2022", "genre":["Action","Single player","Adventure"], "minimumConfig":{
+    "OS": "PS5",
+    "processor": "AMD Phenom II X4 965, 3.2 GHz / Intel Core i3-2100, 3.1 GHz",
+    "memory": "4 GB RAM",
+    "graphics": "Radeon R7 250x, 1GB / GeForce GTX 460, 2 GB",
+    "directX": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "42 GB available space"
+},"recommendedConfig":{
+    "OS": "PS5",
+    "processor": "AMD FX-8350, 4.2 GHz / Intel Core i5-2400, 3.1 GHz",
+    "memory": "4 GB RAM",
+    "graphics": "Radeon RX 580, 4 GB / GeForce GTX 1060, 6 GB",
+    "directX": "Version 11",
+    "network": "Broadband Internet connection",
+    "storage": "42 GB available space"
+}
+},
+{"id":33,"title": "Elden Ring", "img":"https://media.emuglx.org/2022/03/Elden-Ring.jpg","price": 75,"platform":"PS5","platformImg":"https://www.fifplay.com/img/public/playstation-5-logo.jpg","inStock": 170, "digitalDownload": "yes", "aboutTheGame":"Elden Ring for PC is an action role playing game (ARPG) written by superstars George R R Martin (the author of the Song of Ice and Fire series of books which begat television show Game of Thrones) and Hidetaka Miyazake (who is famed for many popular video games: from the Souls series, to Bloodborne, to Sekiro amongst many others).", "rating": "PEGI 18", "developer": "FromSoftware, Inc", "publisher": "FromSoftware, Inc. BANDAI NAMCO Entertainment", "releaseDate": "20 August 2021", "genre":["Action","Single player"],"minimumConfig":{
+    "OS": "PS5",
+    "processor": "INTEL CORE I5-8400 or AMD RYZEN 3 3300X",
+    "memory": "12 GB RAM",
+    "graphics": "NVIDIA GEFORCE GTX 1060 3 GB or AMD RADEON RX 580 4 GB",
+    "directX": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "60 GB available space"
+},"recommendedConfig":{
+    "OS": "PS5",
+    "processor": "INTEL CORE I7-8700K or AMD RYZEN 5 3600X",
+    "memory": "16 GB RAM",
+    "graphics": "NVIDIA GEFORCE GTX 1070 8 GB or AMD RADEON RX VEGA 56 8 GB",
+    "directX": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "60 GB available space"
+}
+},
+{"id":34,"title": "Red Dead Redemption 2", "img":"https://compass-ssl.xbox.com/assets/64/02/6402981a-9446-46d8-8289-e370f3158746.jpg","price": 65,"platform":"PC","platformImg":"https://www.freeiconspng.com/thumbs/steam-icon/steam-icon-3.png","inStock": 100, "digitalDownload": "yes", "aboutTheGame": "Red Dead Redemption 2 for PC is an action adventure, open world game in which the player can roam freely with some elements playing out in third person, others in first person play modes. The player can commit crimes, but must then be prepared for law enforcement to hunt them down, ready to bring to bear the full weight of the law on the miscreant!", "rating": "PEGI 18", "developer": "Rockstar North", "publisher": "Rockstar Games", "releaseDate": "5 December 2019", "genre":["Action","Adventure","Single player"],"minimumConfig":{
+    "OS": "Windows 10 (64-bit)",
+    "processor": "Intel Core i3-4130 or Core i5-3470 or AMD FX-6100",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GT 1030 (DDR4) or AMD Radeon RX 550",
+    "directX": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "36 GB available space"
+},"recommendedConfig":{
+    "OS": "Windows 10 (64-bit)",
+    "processor": "Intel Core i5-4460 or AMD FX-8300",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1060 (VRAM 3GB) or AMD Radeon RX 570 (VRAM 4GB)",
+    "directX": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "36 GB available space"
+}
+},
+{"id":35,"title": "The Last of Us Remake", "img":"https://s1.gaming-cdn.com/images/products/10209/616x353/the-last-of-us-remake-ps5-remake-edition-playstation-5-game-playstation-store-cover.jpg?v=1654854776","price": 75,"platform":"PC","platformImg":"https://www.freeiconspng.com/thumbs/steam-icon/steam-icon-3.png", "inStock": 200, "digitalDownload": "yes", "aboutTheGame": "The Last of Us is a 2013 action-adventure game developed by Naughty Dog and published by Sony Computer Entertainment. Players control Joel, a smuggler tasked with escorting a teenage girl, Ellie, across a post-apocalyptic United States. The Last of Us is played from a third-person perspective.", "rating": "PEGI 18", "developer": "Visual Concepts", "publisher": "2K", "releaseDate": "28 March 2022", "genre":["Action","Single player"], "minimumConfig":{
+    "OS": "Windows 10/11",
+    "processor": "Intel Core i3-4130 or Core i5-3470 or AMD FX-6100",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GT 1030 (DDR4) or AMD Radeon RX 550",
+    "directX": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "36 GB available space"
+},"recommendedConfig":{
+    "OS": "Windows 10/11",
+    "processor": "Intel Core i5-4460 or AMD FX-8300",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1060 (VRAM 3GB) or AMD Radeon RX 570 (VRAM 4GB)",
+    "directX": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "36 GB available space"
+}
+},
+{"id":36,"title": "WWE 2K22", "img":"https://s1.gaming-cdn.com/images/products/10503/616x353/wwe-2k22-xbox-one-xbox-one-game-microsoft-store-europe-cover.jpg?v=1647449812","price": 80,"platform":"PC","platformImg":"https://www.freeiconspng.com/thumbs/steam-icon/steam-icon-3.png", "inStock": 140, "digitalDownload": "yes", "aboutTheGame": "About This Game REDESIGNED GAMEPLAY ENGINE. NEW CONTROLS. ALL THE FEATURES YOU CAN HANDLE.Get ripped out of the stands and hit with complete control of the WWE Universe.THE GAME THAT MAY HIT TOO REALHitting this hard has never been so easy. Everything from the controls to the stunning graphics has been redesigned, and feels as real as being ringside at WrestleMania", "rating": "PEGI 18", "developer": "Visual Concepts", "publisher": "2K", "releaseDate": "11 March 2022", "genre":["Simulation","Single player"], "minimumConfig":{
+    "OS": "Windows 10 (64-bit)",
+    "processor": "Intel Core i3-4130 or Core i5-3470 or AMD FX-6100",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GT 1030 (DDR4) or AMD Radeon RX 550",
+    "directX": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "36 GB available space"
+},"recommendedConfig":{
+    "OS": "Windows 10 (64-bit)",
+    "processor": "Intel Core i5-4460 or AMD FX-8300",
+    "memory": "8 GB RAM",
+    "graphics": "NVIDIA GeForce GTX 1060 (VRAM 3GB) or AMD Radeon RX 570 (VRAM 4GB)",
+    "directX": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "36 GB available space"
+}
+},
+{"id":37,"title": "Minecraft", "img":"https://i.ytimg.com/vi/6NS05Q_QHFs/maxresdefault.jpg","price": 15,"platform":"PC","platformImg":"https://www.freeiconspng.com/thumbs/steam-icon/steam-icon-3.png","inStock": 200, "digitalDownload": "yes", "aboutTheGame": "Minecraft: Java + Bedrock Edition Minecraft for PC is the best-selling video game of all time. That alone should be enough to sell you on it, but here’s a bit more information about why you should start playing right now. It is a sandbox game in which players must mine, build, and craft to create their own ideal world. About the Game The premise of the game is laughably simple", "rating": "PEGI 18", "developer": "Mojang Studios Double Eleven", "publisher": "Xbox Game Studios", "releaseDate": "9 November 2010", "genre":["Single player","Action"],"minimumConfig":{
+    "OS": "Windows 10 (64-bit)",
+    "processor": "Pentium 4 1.6GHz / Athlon XP 1600+",
+    "memory": "500 MB",
+    "graphics": "GeForce 4 MX 440 / Radeon HD 3200",
+    "directX": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "1 GB"
+},"recommendedConfig":{
+    "OS": "Windows 10 (64-bit)",
+    "processor": "Pentium 4 3.0GHz / Athlon XP 2600+",
+    "memory": "1 GB",
+    "graphics": "GeForce 8600 GS / Radeon HD 6320",
+    "directX": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "1 GB"
+}
+},
+{"id":38,"title": "Dying Light 2 Stay Human", "img":"https://s1.gaming-cdn.com/images/products/4212/616x353/dying-light-2-stay-human-xbox-one-xbox-series-x-s-xbox-one-xbox-series-x-s-game-microsoft-store-europe-cover.jpg?v=1655717422","price": 55,"platform":"PC","platformImg":"https://www.freeiconspng.com/thumbs/steam-icon/steam-icon-3.png","inStock": 100, "digitalDownload": "yes", "aboutTheGame":"About This Game Over twenty years ago in Harran, we fought the virus—and lost. Now, we’re losing again. The City, one of the last large human settlements, is torn by conflict. Civilization has fallen back into the Dark Ages. And yet, we still have hope. You are a wanderer with the power to change the fate of The City. But your exceptional abilities come at a price.", "rating": "PEGI 18", "developer": "Techland", "publisher": "Techland", "releaseDate": "4 February 2022", "genre":["Action","Single player","Online Co-op"],"minimumConfig":{
+    "OS": "Windows 10 (64-bit)",
+    "processor": "Intel CPU Core i3-8100 or equivalent",
+    "memory": "8 GB RAM",
+    "graphics": "DirectX12 capable GPU with 4GB VRAM",
+    "directX": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "85 GB available space"
+},"recommendedConfig":{
+    "OS": "Windows 10 (64-bit)",
+    "processor": "Intel CPU Core i5-8400 or equivalent",
+    "memory": "16 GB RAM",
+    "graphics": "DirectX12 capable GPU with 6GB VRAM",
+    "directX": "Version 12",
+    "network": "Broadband Internet connection",
+    "storage": "85 GB available space"
+}
+}
+
+
 
 
 
