@@ -11,7 +11,6 @@ const routes: Routes = [
   {path:'', component:CardListComponent},
   {path:'cart', component:CartComponent},
   {path:'checkout', component:CheckoutComponent},
-
   
   
 ];

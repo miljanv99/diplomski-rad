@@ -8,7 +8,6 @@ import { CommonModule } from '@angular/common'
 import { CartComponent } from './components/cart/cart.component';
 import { CheckoutComponent } from './components/checkout/checkout.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { Ng2SearchPipeModule } from 'ng2-search-filter';
 import {NgxPaginationModule} from 'ngx-pagination';
 import {MatPaginatorModule} from '@angular/material/paginator';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
@@ -52,7 +51,6 @@ import { DialogConfirmComponent } from './components/dialog-confirm/dialog-confi
     AppRoutingModule,
     FormsModule, /* za ngModel */
     ReactiveFormsModule,
-    Ng2SearchPipeModule,
     NgxPaginationModule,
     MatPaginatorModule,
     NoopAnimationsModule,

@@ -12,8 +12,8 @@ import games from '../../data/igrice.json'
 export class CardListComponent implements OnInit {
   gameList:Game[]= games
   gameListInitial: Game[]= games
-  public totalItem: number = 0;
-  ngTitle:any;
+  totalItem: number = 0;
+  ngTitle:string;
   p:number = 1;
 
   constructor(private cartService: CartService) { }

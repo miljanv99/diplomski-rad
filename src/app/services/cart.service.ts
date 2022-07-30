@@ -9,13 +9,13 @@ export class CartService {
  
   public cartItemList : any =[]
   public productList = new BehaviorSubject<any>([]);
-  public consolesList = new BehaviorSubject<any>([]);
   public search = new BehaviorSubject<string>("");
   public game: Game
   
   
 
   constructor() { }
+  
   getProducts(){
     return this.productList.asObservable();
     
@@ -24,9 +24,8 @@ export class CartService {
   addtoCart(product : Game){
     this.cartItemList.push(product);
     this.productList.next(this.cartItemList);
-    this.getTotalPrice();
     console.log(this.cartItemList)
-    
+    console.log(this.productList)
   }
   getTotalPrice() : number{
     let grandTotal = 0;

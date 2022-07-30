@@ -14,17 +14,15 @@ import countries from '../../data/zemlje.json'
 })
 export class CheckoutComponent implements OnInit{ 
   public products : any = [];
-  public totalPrice : any = 0;
+  public totalPrice : number = 0;
   public totalItem: number = 0;
   countryList: Country[] = countries;
-  
+  checkoutForm:any;
   
   constructor(private cartService : CartService,
               private snackBar: MatSnackBar,
               private router: Router) { }
   
-  checkoutForm:any;
-
 
   ngOnInit(): void {
 
@@ -46,18 +44,20 @@ export class CheckoutComponent implements OnInit{
       formExpirationYear : new FormControl('',[Validators.required,Validators.pattern('(202[2-9]|20[34][0-9]|2050)')]),
       formCVV : new FormControl('',[Validators.required,Validators.pattern('^[1-9][0-9]{2,2}$')]),
     })
-
-
-
-    
-
   }
-  
+ 
+  buyGame(){
 
-  checkoutUser(){
-    console.log(this.checkoutForm.value)
+    this.snackBar.open("You have successfully completed your purchase","OK",{
+      panelClass:["snackBarOK"],duration: 5000
+      
+    })
+ 
+    this.router.navigateByUrl('');
+    this.cartService.removeAllCart();
   }
-  
+
+
   get formName(){
     return this.checkoutForm.get("formName")
   }
@@ -90,19 +90,6 @@ export class CheckoutComponent implements OnInit{
   }
   get formCVV(){
     return this.checkoutForm.get("formCVV")
-  }
-  
-  buyGame(){
-
-    this.snackBar.open("You have successfully completed your purchase","OK",{
-      panelClass:["snackBarOK"],duration: 5000
-      
-    })
- 
-    this.router.navigateByUrl('');
-    this.cartService.removeAllCart();
-    
-    
   }
   
   

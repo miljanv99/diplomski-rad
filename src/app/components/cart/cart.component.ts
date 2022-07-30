@@ -1,4 +1,4 @@
-import { Component, Inject, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { Game } from 'src/app/model/game.model';
@@ -13,11 +13,7 @@ import { DialogConfirmComponent } from '../dialog-confirm/dialog-confirm.compone
 export class CartComponent implements OnInit {
 
   public products : any = [];
- 
-  public grandTotal !: number;
-  public serialNumber: string;
-  public selectedValue: number
-  public counter = 0;
+  public grandTotal : number;
   public totalItem: number = 0;
   
 
@@ -53,7 +49,7 @@ export class CartComponent implements OnInit {
   calculateFullPrice(){
     this.cartService.getProducts()
     .subscribe(res=>{
-      this.products = res;//put product in cart
+      this.products = res;//all added products
       this.grandTotal = this.cartService.getTotalPrice();
     })
   }
